@@ -13,8 +13,9 @@
 
 
 age = int(input("enter dog's age in hooman years"))
-
-if age <=2:
+if age ==1:
+    dogAge = 10
+if age ==2:
     dogAge = 20
 if age >=3:
     dogAge = (age - 2) *7
